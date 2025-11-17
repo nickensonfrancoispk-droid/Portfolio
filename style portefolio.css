@@ -29,6 +29,7 @@ body {
     text-align: center;
 }
 
+
 .section, .info-section {
     padding: 40px 20px;
 }
@@ -50,6 +51,10 @@ body {
 h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+}
+h3{
+    font-size: 1.4rem;
+    margin-bottom: 1px;
 }
 
 p {
@@ -77,4 +82,24 @@ p {
 }
 .projet2{
     text-align: center;
+}
+.section .white {
+     text-align: left;
+}
+
+.w12{
+text-align: left;
+}
+.Tableau{
+    font-size: 1.9rem;
+}
+.w23{
+    text-align: left;
+    margin: 10px;
+
+}
+.w15{
+    text-align: left;
+    margin: 10px;
+
 }
