@@ -1,97 +1,112 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio François</title>
-    <meta name="description" content="Ceci est mon portfolio étudiant">
-    <link rel="stylesheet" href="style portefolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio François Nickenson</title>
+    <meta name="description" content="Portfolio étudiant BTS SIO de François Nickenson">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <header class="header">
+        <h1><span class="prompt">&gt;</span> François Nickenson<span class="cursor">_</span></h1>
+        <p class="sous-titre">Étudiant BTS SIO – SISR · Portfolio</p>
+        <nav>
+            <a href="#apropos">À propos</a>
+            <a href="#formations">Formations</a>
+            <a href="#competences">Compétences</a>
+            <a href="#realisations">Réalisations</a>
+            <a href="#veille">Veille</a>
+            <a href="#synthese">Tableau de synthèse</a>
+        </nav>
+    </header>
 
-    <div class="slider">
-        <h1 class="slider-titre">Bienvenu(e) sur mon portfolio</h1>
+    <main>
 
-    </div>
+        <section id="apropos" class="section">
+            <div class="boxed">
+                <h2>À propos de moi</h2>
+                <p>
+                    Je m’appelle François Nickenson et je suis actuellement en BTS SIO. Après un parcours en design graphique, j’ai choisi de me reconvertir dans l’informatique, un domaine qui me passionne par sa logique et ses défis constants.
+                </p>
+                <p>
+                    Sur ce portfolio, vous pourrez retrouver ma veille technologique, la liste des projets que j’ai menés durant ma formation, ainsi qu’un tableau de synthèse de mes compétences.
+                </p>
+            </div>
+        </section>
 
+        <section id="formations" class="section alt">
+            <div class="boxed">
+                <h2>Diplômes et formations</h2>
 
-    <div class="section">
-        <div class="boxed">
-            <div class="flex">
-                <div>
-                    <h2>À propos de moi</h2>
-                    <p>
-                        Je m’appelle François Nickenson et je suis actuellement en BTS SIO. Après un parcours en design graphique, j’ai choisi de me reconvertir dans l’informatique, un domaine qui me passionne par sa logique et ses défis constants.
-                        Sur ce portfolio, vous pourrez retrouver la veille technologique que j’ai réalisée, notamment sur le trading, ainsi que la liste des projets que j’ai meneé durant ma formation, accompagnée d’un tableau de synthèse de mes compétences.
+                <h3>BTS SIO</h3>
+                <p>Depuis septembre 2025, lycée Charles de Foucauld (Paris 18e), option réseaux et développement.</p>
 
-                    </p>
+                <h3>Baccalauréat professionnel Artisanat et Métiers d’Art</h3>
+                <p>De septembre 2021 à juin 2024, lycée Alfred Costes (Bobigny) : techniques de création visuelle et outils de communication plurimédia.</p>
+            </div>
+        </section>
+
+        <section id="competences" class="section">
+            <div class="boxed">
+                <h2>Mes compétences</h2>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="images/html.png" alt="Logo HTML">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill">
+                        <img src="images/css.png" alt="Logo CSS">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill">
+                        <img src="images/python.png" alt="Logo Python">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill">
+                        <img src="images/mysql.png" alt="Logo MySQL">
+                        <h3>MySQL</h3>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="section dark">
-        <div class="boxed text-center">
-    <div id="projet0" class="info-section">
-        <h2>Diplômes et Formations</h2>
-        <div class="w12">
-        <h3>BTS SIO</h3>
-        <p>
-Depuis septembre 2025 Lycée Charles de Foucauld 75018, Paris, spécialisé réseaux
-développement. </p>
-        <h3>Baccalauréat professionnel en Artisanat et métier d'art</h3>
-            <p>
-De septembre 2021 à juin 2024 lycée Alfred Costes Bobigny techniques de création visuelle et outils de communication plurimédia
-        </p>
-    </div>
-        <div id="projet">
+        </section>
 
-        </div>
- <div id="projet1" class="info-section">
-        <h2>Mes compétences</h2>
-       <div class="flex">
-           <div class="w25 skill">
-               <img src="html-logo.png" alt=>
-               <h3>HTML</h3>
-           </div>
-              <div class="w25 skill">
-               <img src="CSS-LOGO.png" alt>
-               <h3>CSS</h3>
-           </div>
-              <div class="w25 skill">
-               <img src="python-logo.png" alt=>
-               <h3>PYTHON</h3>
-           </div>
-           <div class="w25 skill">
-               <img src="icons8-mysql-50.png" alt=>
-               <h3>MYSQL</h3>
-           </div>
-    </div>
-<div id="projet2" class="info-section">
-    <div class="section white">
-        <h2>Mes réalisations</h2>
-        <p>Projet 1 :
-Création d’un site individuel destiné à me présenter. Par la suite, nous avons intégré ce site dans une plateforme commune avec mon groupe, ce qui nous a permis de créer un site complet présentant l’ensemble de notre équipe.</p>
-        <P>Projet 2 :
-            Création d’un portfolio mettant en avant mes travaux et mes compétences.</P>
+        <section id="realisations" class="section alt">
+            <div class="boxed">
+                <h2>Mes réalisations</h2>
 
-    </div>
-    <div id="veille" class="info-section">
-        <h2>Veille technologique</h2>
-        <div class="w23">
-        <p>L’IA évolue rapidement et influence de plus en plus les outils créatifs que j’utilise au quotidien. En 2025, les modèles deviennent multimodaux, capables de comprendre texte, image et audio en même temps. Cette évolution permet une interaction plus naturelle et surtout plus efficace dans les phases d’exploration visuelle.
-    On voit également l’arrivée d’IA directement intégrées dans les appareils (ordinateurs, smartphones, tablettes). Ces technologies rendent les outils plus rapides et mieux sécurisés, ce qui facilite le travail sans dépendre constamment du cloud.
-        Dans le domaine créatif, l’IA devient un véritable support d’inspiration : génération d’esquisses, variations de concepts, retouches rapides… Elle accélère certaines étapes tout en laissant la place à la sensibilité et aux choix artistiques personnels.
+                <h3>Projet 1</h3>
+                <p>Création d’un site individuel destiné à me présenter. Nous avons ensuite intégré ce site dans une plateforme commune avec mon groupe, ce qui nous a permis de créer un site complet présentant toute l’équipe.</p>
 
-            Enfin, l’Europe met en place des règles pour encadrer l’utilisation de l’IA, ce qui pousse vers des pratiques plus transparentes et responsables.
-Pour moi, l’IA est avant tout un outil d’accompagnement, qui enrichit ma démarche sans remplacer le regard humain.</p>
-    </div>
+                <h3>Projet 2</h3>
+                <p>Création d’un portfolio mettant en avant mes travaux et mes compétences.</p>
+            </div>
+        </section>
 
-    <div id="projet3" class="info-section">
-        <div class="Tableau">
-            <h2>Tableau de synthèse</h2>
-            <a href="BTS SIO 2025 Epreuve E5 .pdf">
-            exemple</a>
-        </div>
-        <script src="PORTEFOLIO.js"></script>
+        <section id="veille" class="section">
+            <div class="boxed">
+                <h2>Veille technologique</h2>
+                <p>L’IA évolue rapidement et influence de plus en plus les outils créatifs que j’utilise au quotidien. En 2025, les modèles deviennent multimodaux, capables de comprendre texte, image et audio en même temps. Cette évolution permet une interaction plus naturelle et surtout plus efficace dans les phases d’exploration visuelle.</p>
+                <p>On voit également l’arrivée d’IA directement intégrées dans les appareils (ordinateurs, smartphones, tablettes). Ces technologies rendent les outils plus rapides et mieux sécurisés, ce qui facilite le travail sans dépendre constamment du cloud.</p>
+                <p>Dans le domaine créatif, l’IA devient un véritable support d’inspiration : génération d’esquisses, variations de concepts, retouches rapides… Elle accélère certaines étapes tout en laissant la place à la sensibilité et aux choix artistiques personnels.</p>
+                <p>Enfin, l’Europe met en place des règles pour encadrer l’utilisation de l’IA, ce qui pousse vers des pratiques plus transparentes et responsables.</p>
+                <p>Pour moi, l’IA est avant tout un outil d’accompagnement, qui enrichit ma démarche sans remplacer le regard humain.</p>
+            </div>
+        </section>
+
+        <section id="synthese" class="section alt">
+            <div class="boxed">
+                <h2>Tableau de synthèse</h2>
+                <a class="bouton" href="tableau-synthese-E5.pdf" target="_blank">Voir le tableau de synthèse (PDF)</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 François Nickenson – BTS SIO</p>
+    </footer>
+
 </body>
 </html>
